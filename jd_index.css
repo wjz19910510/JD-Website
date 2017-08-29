@@ -1,0 +1,54 @@
+/*测试样式*/
+#top,#top_main,#nav,#banner,#main,#foot_box,#footer{
+	border:1px solid black;
+}
+/*通用样式*/
+body{
+	font:12px "microsoft yahei",Arial,sans-serif;
+	color:#666;
+	margin:0;
+	padding:0;
+}
+ul,p,h1,h2,h3,h4,h5,h6,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+input{border:0;}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{vertical-align:bottom;}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#FF0700;
+	text-decoration:underline;
+}
+/*STEP1 : 页面的主体布局*/
+#top_box,#top_main,#nav,#banner,#main,#foot_box,#footer{
+	/*宽度:1211px，水平居中对齐*/
+	width:1211px;
+	margin:0 auto;
+}
+#top{
+	/*宽度，高度，行高，背景，下边框*/
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background:#F7F7F7;
+	border-bottom:1px solid #EEE;
+}
+
+
+
+
+
+
+
+
+
+
+
