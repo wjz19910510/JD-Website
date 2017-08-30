@@ -41,14 +41,15 @@ a:hover{
 	background:#F7F7F7;
 	border-bottom:1px solid #EEE;
 }
-
-
-
-
-
-
-
-
-
-
-
+#top_box ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#top_box li{
+	padding: 0 3px;
+}
+.left_border{
+	border-left: 1px solid #ccc;
+	padding-right: 6px;
+}
