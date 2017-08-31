@@ -10,27 +10,54 @@
 		<header id="top">
 			<!-- #top_box : width :1211px -->
 			<div id="top_box">
-				<div class="lf"><img src="">收藏京东</div>
+				<!--页面顶部五角星-->
+				<div><img class="lf" src="Images/star.jpg"><a class="lf" href="#">收藏京东</a></div>
 				<ul id="log_in_nav">
-					<li class="rt"><i class="left_border"></i>网站导航</li>
-					<li class="rt"><i class="left_border"></i>客户服务<img src="" alt=""></li>
-					<li class="rt"><i class="left_border"></i><img src="" alt="">手机京东</li>
-					<li class="rt"><i class="left_border"></i><img src="" alt="">企业频道</li>
-					<li class="rt"><i class="left_border"></i><img src="" alt="">会员俱乐部</li>
-					<li class="rt"><i class="left_border"></i>我的订单</li>
-					<li class="rt">您好，欢迎来到京东！[登录][免费注册]</li>
-
-
+					<li><i class="left_border"></i>网站导航</li>
+					<li class="customer_service"><i class="left_border"></i><a href="#">客户服务</a>
+						<!--弹出菜单-->
+						<ul id="service_items">
+							<li><a href="#">帮助中心</a></li>
+							<li><a href="#">售后服务</a></li>
+							<li><a href="#">在线客服</a></li>
+						</ul>
+					</li>
+					<li class="app_jd"><i class="left_border"></i><a href="#">手机京东</a></li>
+					<li><i class="left_border"></i><a href="#">企业频道</a></li>
+					<li class="vip"><i class="left_border"></i><a href="#">会员俱乐部</a></li>
+					<li><i class="left_border"></i>我的订单</li>
+					<li>您好，欢迎来到京东！[登录][免费注册]</li>
 				</ul>
-
-
-
-
-
 			</div>
 		</header>
 		<!-- LOGO 和 搜索框 #top_main -->
-		<div id="top_main">LOGO和搜索框</div>
+		<div id="top_main">
+			<!--Logo-->
+			<a href="#" class="lf"><img src="Images/jd_logo.png" alt=""></a>
+			<!--搜索框和热门搜索-->
+			<div id="search_window">
+					<div class="search">
+					<input class="txtsearch" type="text" name="main_search" value="">
+					<button type="button" name="search">搜索</button>
+					</div>
+					<div class="hot_words">
+						<span>热门搜索:</span>
+						<a href="#">家纺11月大促销</a>
+						<a href="#">彩虹电热毯</a>
+						<a href="#">九州路被子</a>
+						<a href="#">家纺11月大促销</a>
+						<a href="#">彩虹电热毯</a>
+						<a href="#">九州路被子</a>
+					</div>
+			</div>
+			<!--我的京东 购物车结算-->
+			<div class="">
+
+			</div>
+			<!--空元素 （为了排版）-->
+			<div class="clear">
+			</div>
+		</div>
 		<!-- 页面导航 #nav -->
 		<nav id="nav">页面导航</nav>
 		<!-- banner 广告 #banner -->

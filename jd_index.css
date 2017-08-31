@@ -1,5 +1,5 @@
 /*测试样式*/
-#top,#top_main,#nav,#banner,#main,#foot_box,#footer{
+#nav,#banner,#main,#foot_box,#footer{
 	border:1px solid black;
 }
 /*通用样式*/
@@ -33,6 +33,7 @@ a:hover{
 	width:1211px;
 	margin:0 auto;
 }
+/*页面顶部 登录收藏界面*/
 #top{
 	/*宽度，高度，行高，背景，下边框*/
 	width:100%;
@@ -41,15 +42,120 @@ a:hover{
 	background:#F7F7F7;
 	border-bottom:1px solid #EEE;
 }
-#top_box ul{
-	margin: 0;
+#top_box div>img{
+	/*收藏京东左边五角星*/
+	margin-top: 10px;
+	margin-right: 5px;
+}
+/*top_box排版*/
+#log_in_nav>li{
+	float: right;
+}
+
+#top_box .left_border{
+	border-left: 1px solid #ddd;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+/*页面顶部 列表 会员俱乐部*/
+li.vip a{
+	padding-left: 29px;
+	background: url(Images/vip.jpg) no-repeat 0 center;
+}
+/*手机京东*/
+li.app_jd a{
+	display: inline-block;
+	height:22px;
+	line-height:22px;
+	padding-left: 18px;
+	background: url(Images/iconlist_2.png) no-repeat -128px 360px;
+}
+li.app_jd a:hover{
+	background-position: -128px -399px;
+}
+/*客户服务下拉菜单*/
+li.customer_service>a{
+	/*左右内边距，背景图，边框（左右上透明）*/
+	padding: 0 15px;
+	background: url(Images/jt_up.jpg) no-repeat 95% center;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	/*行内块，高度，行高*/
+	display:inline-block;
+	height:26px;
+	line-height: 26px;
+}
+li.customer_service>a:hover{
+	background: url(Images/jt_down.jpg) no-repeat 95% center;
+	border-color: #ddd;
+	background-color: #fff;
+}
+li.customer_service{
+	position: relative;
+}
+#service_items{
+	border: 1px solid #ddd;
+	border-top: 0;
+	background-color: #fff;
+	width: 78px;
+	text-align: center;
+	position: absolute;
+	top: 26px;
+	left: 11px;
+	display: none;
+}
+li.customer_service:hover #service_items{
+	border: 1px solid #ddd;
+	border-top: 0;
+	background-color: #fff;
+	width: 78px;
+	text-align: center;
+	position: absolute;
+	top: 26px;
+	left: 11px;
+	display: block;
+}
+#top_main{
+	padding: 10px 0;
+	height:60px;
+}
+#search_window{
+	float: left;
+	width: 500px;
+	margin: 0 80px 0 40px;
+}
+#search_window div.search{
+	width: 500px;
+	height: 30px;
+	background-color: #e4393c;
+	margin-left: 150px;
+	padding: 3px;
+}
+#search_window div.search input{
+	width: 410px;
+	height: 30px;
 	padding: 0;
-	list-style: none;
+	padding-left: 10px;
 }
-#top_box li{
-	padding: 0 3px;
+#search_window .search button{
+	width: 70px;
+	height: 28px;
+	background-color: #e4393c;
+	border:none;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
 }
-.left_border{
-	border-left: 1px solid #ccc;
-	padding-right: 6px;
+#search_window div.hot_words{
+	margin-left: 150px;
+	margin-top: 5px;
+	color: #999;
+	/*宽度 高度 溢出隐藏*/
+	width: 100%;
+	height: 16px;
+	overflow: hidden;
+}
+#search_window div.hot_words a{
+	padding-left: 5px;
+	color: #999;
 }
