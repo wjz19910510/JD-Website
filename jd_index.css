@@ -238,12 +238,18 @@ li.customer_service:hover #service_items{
 }
 #nav_box>li{
 	float: left;
-	padding-left: 40px;
 }
 #nav_box>li a{
+	float: left;
 	color: #fff;
 	text-decoration: none;
+	width: 100px;
+	height: 40px;
 	font-weight: bold;
+	text-align: center;
+}
+#nav_box>li a:hover{
+	background: #bd2a2c;
 }
 /*页面底部 购物指南*/
 #foot_box{
