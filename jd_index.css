@@ -1,5 +1,5 @@
 /*测试样式*/
-#banner,#main{
+#main{
 	border:1px solid black;
 }
 /*通用样式*/
@@ -222,6 +222,7 @@ li.customer_service:hover #service_items{
 #nav>div.all_products a{
 	float: left;
 	font-weight: bold;
+	font-size: 14px;
 	padding-left: 20px;
 	color: #fff;
 	text-decoration: none;
@@ -245,12 +246,97 @@ li.customer_service:hover #service_items{
 	text-decoration: none;
 	width: 100px;
 	height: 40px;
+	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
 }
 #nav_box>li a:hover{
 	background: #bd2a2c;
 }
+/*banner广告页面*/
+/*左侧分类信息*/
+#left_banner_box{
+	float: left;
+	width: 210px;
+	height: 410px;
+	box-sizing: border-box;
+	border: 2px solid #cd2a2c;
+	border-top: 0;
+	padding-top: 5px;
+	background: #fafafa;
+	position: relative;
+}
+/*li 的代理*/
+#left_banner_box>li>p{
+	width: 186px;
+	padding: 5px 0 5px 10px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #fff;
+	margin-left: 1px;
+}
+#left_banner_box>li>p:hover{
+	border-color: #ddd;
+	background: #fff;
+	position: relative;
+	z-index: 200;
+}
+#left_banner_box>li>p a{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
+/*弹出框：子分类盒子*/
+#sub_banner_box{
+	width: 710px;
+	height: 400px;
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 5px 10px;
+	margin-top: 5px;
+	position: absolute;
+	top: 0px;
+	left: 195px;
+	z-index: 20;
+}
+/*关闭按钮*/
+#close_button{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background: #555;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+/*电子书 等等*/
+#banner ul.sub_banner_classify{
+	width: 410px;
+	height: 30px;
+	border-top: 1px solid #ddd;
+}
+#banner ul.sub_banner_classify>li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: 1px solid #ddd;
+	margin-top: 5px;
+}
+#banner ul.sub_banner_classify>li.classification_name{
+	border-left: 0;
+}
+#banner ul.sub_banner_classify>li.classification_name a{
+	font-weight: bold;
+	color: #cd2a2c;
+	text-decoration: underline;
+}
+/*子分类广告*/
 /*页面底部 购物指南*/
 #foot_box{
 	border: 1px solid #ddd;
