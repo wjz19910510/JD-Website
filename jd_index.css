@@ -330,13 +330,17 @@ li.customer_service:hover #service_items{
 }
 #banner ul.sub_banner_classify>li.classification_name{
 	border-left: 0;
+	width: 60px;
+	text-align: right;
 }
 #banner ul.sub_banner_classify>li.classification_name a{
 	font-weight: bold;
 	color: #cd2a2c;
 	text-decoration: underline;
 }
+
 /*子分类广告*/
+
 /*页面底部 购物指南*/
 #foot_box{
 	border: 1px solid #ddd;
