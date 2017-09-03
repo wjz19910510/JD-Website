@@ -288,7 +288,7 @@ li.customer_service:hover #service_items{
 /*弹出框：子分类盒子*/
 #sub_banner_box{
 	width: 710px;
-	height: 400px;
+	height: 300px;
 	border: 1px solid #ddd;
 	background: #fff;
 	padding: 5px 10px;
@@ -338,9 +338,26 @@ li.customer_service:hover #service_items{
 	color: #cd2a2c;
 	text-decoration: underline;
 }
-
 /*子分类广告*/
-
+#sub_banner_box a.right_banner_box_discount01{
+	display: block;
+	width: 194px;
+	height: 70px;
+	background: url(Images/cate_banner_01.jpg) no-repeat;
+	margin-top: 10px;
+}
+#sub_banner_box a.right_banner_box_discount02{
+	display: block;
+	width: 194px;
+	height: 70px;
+	background: url(Images/cate_banner_02.jpg) no-repeat;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#sub_banner_box h4>a{
+	font-weight: bold;
+	color: #e4393c;
+}
 /*页面底部 购物指南*/
 #foot_box{
 	border: 1px solid #ddd;
