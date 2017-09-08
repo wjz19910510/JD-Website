@@ -1,7 +1,4 @@
 /*测试样式*/
-#main{
-	border:1px solid black;
-}
 /*通用样式*/
 body{
 	font:12px "microsoft yahei",Arial,sans-serif;
@@ -288,7 +285,6 @@ li.customer_service:hover #service_items{
 /*弹出框：子分类盒子*/
 #sub_banner_box{
 	width: 710px;
-	height: 300px;
 	border: 1px solid #ddd;
 	background: #fff;
 	padding: 5px 10px;
@@ -297,6 +293,8 @@ li.customer_service:hover #service_items{
 	top: 0px;
 	left: 195px;
 	z-index: 20;
+	/*隐藏*/
+	display: none;
 }
 /*关闭按钮*/
 #close_button{
@@ -358,6 +356,123 @@ li.customer_service:hover #service_items{
 	font-weight: bold;
 	color: #e4393c;
 }
+#middle_banner_box{
+	width: 670px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+#middle_banner_box>p.middle_banner_box_upside_img{
+	position: relative;
+	width: 668px;
+	height: 240px;
+	border: 1px solid #ddd;
+}
+#middle_banner_box ul.middle_banner_box_upside_num{
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+}
+#middle_banner_box ul.middle_banner_box_upside_num li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	border-radius: 50%;
+	background-color: #3e3e3e;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#middle_banner_box ul.middle_banner_box_upside_num li:hover{
+	background: #e4393c;
+}
+#middle_banner_box_ad{
+	width: 668px;
+	height: 159px;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+}
+#middle_banner_box_ad>a{
+	float: left;
+}
+/*京东快报*/
+#JD_news{
+	width: 280px;
+	height: 400px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+/*页面主体*/
+/*生活的橱窗*/
+#main{
+	margin: 10px auto;
+}
+#daily_life{
+	width: 1211px;
+	height: 500px;
+}
+#daily_life>p{
+	font-size: 16pt;
+	font-weight: bold;
+	width: 1211px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+#daily_life>p i{
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 10px;
+	color: #999;
+}
+#brand_window{
+	width: 1211px;
+	height: 380px;
+}
+#brand_window>li{
+	width: 295px;
+	height: 190px;
+	float: left;
+	background-color: #e4393c;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#brand_window>li.no_margin{
+	margin-right: 0;
+}
+#brand_window>li>p{
+	display: block;
+	width: 45%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.7;
+	padding-left: 10px;
+	font-size: 12px;
+}
+#brand_window>li>div{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+#brand_window>li>div>ul{
+	margin-top: 20px;
+}
+#brand_window>li>div>ul b{
+	display: inline-block;
+	width: 2px;
+	height: 2px;
+	background: #666;
+	position: relative;
+	bottom: 4px;
+}
+
+
+
 /*页面底部 购物指南*/
 #foot_box{
 	border: 1px solid #ddd;
