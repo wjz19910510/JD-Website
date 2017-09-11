@@ -470,9 +470,140 @@ li.customer_service:hover #service_items{
 	position: relative;
 	bottom: 4px;
 }
-
-
-
+/*楼层 1F*/
+/*标题 header*/
+div.floor{
+	margin-bottom: 10px;
+}
+div.floor header{
+	height: 40px;
+}
+div.floor header>span{
+	float: left;
+	width: 26px;
+	height: 32px;
+	background: url(Images/index/index_iconlist_01.png) no-repeat;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #aaa;
+	border-bottom: 2px solid #aaa;
+	padding: 3px 0;
+	cursor: pointer;
+}
+div.floor header>span:hover{
+	background-position: -40px 0;
+}
+div.floor header p{
+	float: left;
+	width: 185px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #aaa;
+	padding: 5px 0 4px 0;
+}
+div.floor ul.tab li{
+	float: left;
+}
+div.floor ul.tab li a{
+	float: left;
+	width: 158px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #aaa;
+	text-decoration: none;
+	padding: 15px 0 3.6px 0;
+}
+div.floor ul.tab li a:hover{
+	border-color: #e4393c;
+	background: url(Images/index/tab_arraw.png) no-repeat center bottom;
+}
+div.floor ul.links{
+	width: 210px;
+}
+div.floor ul.links li{
+	float: left;
+	width: 50%;
+	border-bottom: 2px solid #aaa;
+	text-align: center;
+	padding: 18px 0 4px 0;
+}
+div.floor ul.links li a{
+	color: #005aa0;
+}
+/*左侧列表*/
+div.floor{
+	overflow: hidden;
+}
+div.floor aside.lf_list{
+	float: left;
+	width: 210px;
+	height: 361px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	border-left: 0;
+}
+div.floor aside.lf_list li{
+	float: left;
+	line-height: 25px;
+	width: 50%;
+}
+div.floor aside.lf_list ul{
+	overflow: hidden;
+	padding: 0 5px;
+}
+div.floor aside.lf_list p{
+	text-align: center;
+	margin-top: 10px;
+}
+/*中*/
+div.floor>div{
+	float: left;
+	width: 790px;
+	height: 362px;
+}
+div.floor>div dl{
+	float: left;
+	width: 157px;
+	height: 180px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+div.floor>div>div{
+	float: left;
+	width: 473px;
+	height: 180px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+div.floor>div dt{
+	text-align: center;
+}
+div.floor>div dd{
+	padding: 0 10px;
+	line-height: 18px;
+}
+div.floor>div dd.text{
+	text-align: center;
+	color: #e4393c;
+}
+/*右*/
+div.floor aside.rt{
+	width: 210px;
+	height: 362px;
+}
+div.floor aside.rt ul{
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+div.floor aside.rt li{
+	float: left;
+	width: 50%;
+	text-align: center;
+	border-top: 1px dotted #ddd;
+}
 /*页面底部 购物指南*/
 #foot_box{
 	border: 1px solid #ddd;
